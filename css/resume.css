@@ -31,6 +31,10 @@ h3 {
   font-size: 2rem;
 }
 
+.name {
+  font-family: "Comic Sans MS", sans-serif;
+}
+
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
@@ -105,7 +109,7 @@ section.resume-section {
 }
 
 section.resume-section .resume-item .resume-date {
-  min-width: none;
+  min-width: 0;
 }
 
 #skills ul {
@@ -175,6 +179,24 @@ a:hover, a:focus, a:active {
   color: #824027;
 }
 
+#projects a {
+  text-transform: none;
+}
+
+#projects .card-body p i {
+  font-size: 36px;
+}
+
+#projects .card-body h4, h5 {
+  left: 0;
+  width: 85%;
+}
+
+#projects .card-body p {
+  right: 0;
+  width: 15%;
+}
+
 #contacts .icon-box {
   padding: 30px;
   margin: 20px;
@@ -202,7 +224,7 @@ a:hover, a:focus, a:active {
 #contacts .icon-box:hover::before {
   background: #bd5d38;
   top: 0;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 #contacts .icon {
@@ -223,6 +245,8 @@ a:hover, a:focus, a:active {
 #contacts .icon-box:hover i {
   color: #fff;
 }
+
+
 
 .back {
   position: fixed;
@@ -267,13 +291,12 @@ a:hover, a:focus, a:active {
   height: 20%;
   top: 40%;
   left: 45%;
-  border: 24px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 24px solid #ff6e00;
-  border-bottom: 24px solid #ff6e00;
   position: absolute;
   display: block;
-  border-style: ridge;
+  border: 24px ridge #ff6e00;
+  border-right-color: #f3f3f3;
+  border-left-color: #f3f3f3;
   -webkit-animation: aylan 2s linear infinite;
   animation: aylan 2s linear infinite;
 }
@@ -283,13 +306,12 @@ a:hover, a:focus, a:active {
   height: 14%;
   top: 43%;
   left: 46.5%;
-  border: 24px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 24px solid #ff6e00;
-  border-bottom: 24px solid #ff6e00;
   position: absolute;
   display: block;
-  border-style: ridge;
+  border: 24px ridge #ff6e00;
+  border-right-color: #f3f3f3;
+  border-left-color: #f3f3f3;
   -webkit-animation: rotate 2s linear infinite;
   animation: rotate 2s linear infinite;
 }
@@ -299,13 +321,12 @@ a:hover, a:focus, a:active {
   height: 8%;
   top: 46%;
   left: 48%;
-  border: 24px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 24px solid #ff6e00;
-  border-bottom: 24px solid #ff6e00;
   position: absolute;
   display: block;
-  border-style: ridge;
+  border: 24px ridge #ff6e00;
+  border-right-color: #f3f3f3;
+  border-left-color: #f3f3f3;
   -webkit-animation: aylan 2s linear infinite;
   animation: aylan 2s linear infinite;
 }
@@ -334,13 +355,12 @@ a:hover, a:focus, a:active {
   height: 11%;
   top: 44.5%;
   left: 43.5%;
-  border: 10px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 10px solid #ff6e00;
-  border-bottom: 10px solid #ff6e00;
   position: absolute;
   display: block;
-  border-style: ridge;
+  border: 10px ridge #ff6e00;
+  border-right-color: #f3f3f3;
+  border-left-color: #f3f3f3;
   -webkit-animation: aylan 2s linear infinite;
   animation: aylan 2s linear infinite;
 }
@@ -350,13 +370,12 @@ a:hover, a:focus, a:active {
   height: 8%;
   top: 46%;
   left: 45.5%;
-  border: 10px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 10px solid #ff6e00;
-  border-bottom: 10px solid #ff6e00;
   position: absolute;
   display: block;
-  border-style: ridge;
+  border: 10px ridge #ff6e00;
+  border-right-color: #f3f3f3;
+  border-left-color: #f3f3f3;
   -webkit-animation: rotate 2s linear infinite;
   animation: rotate 2s linear infinite;
   }
@@ -366,13 +385,12 @@ a:hover, a:focus, a:active {
   height: 5%;
   top: 47.5%;
   left: 47.3%;
-   border: 10px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 10px solid #ff6e00;
-  border-bottom: 10px solid #ff6e00;
   position: absolute;
   display: block;
-  border-style: ridge;
+  border: 10px ridge #ff6e00;
+  border-right-color: #f3f3f3;
+  border-left-color: #f3f3f3;
   -webkit-animation: aylan 2s linear infinite;
   animation: aylan 2s linear infinite;
 }
